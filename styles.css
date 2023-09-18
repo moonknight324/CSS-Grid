@@ -1,0 +1,31 @@
+*{
+    margin: 6px;
+    background-color: darkcyan;
+}
+
+.container{
+    display:grid;
+    height: 1300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    place-items: center;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
+ 
